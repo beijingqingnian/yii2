@@ -17,4 +17,8 @@ class SiteController extends Controller
     {
         return $this->render('login');
     }
+
+    public function actionLogin(){
+        return $this->render('login');
+    }
 }
