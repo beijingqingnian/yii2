@@ -5689,3 +5689,2807 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2016-12-29 08:01:13 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Access to undeclared static property: app\modules\models\WarehouseInfo::$status_list' in /code/yii2/modules/views/warehouse/_form.php:34
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile()
+#1 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile()
+#2 /code/yii2/modules/views/warehouse/create.php(17): yii\base\View->render()
+#3 /code/yii2/vendor/yiisoft/yii2/base/View.php(326): ::unknown()
+#4 /code/yii2/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile()
+#5 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile()
+#6 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render()
+#7 /code/yii2/modules/controllers/WarehouseController.php(73): yii\base\Controller->render()
+#8 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\WarehouseController->actionCreate()
+#9 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#10 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#11 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#12 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#13 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#14 /code/yii2/index.php(12): yii\base\Application->run()
+#15 {main}
+2016-12-29 08:01:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse/create'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Findex'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '54316'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fwarehouse%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482994873.2
+    'REQUEST_TIME' => 1482994873
+    'argv' => [
+        0 => 'r=admin%2Fwarehouse%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-12-29 08:07:27 [-][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-29 08:07:25 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.DasC3Z5WRH/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/Users/wangxl'
+    'TERM_SESSION_ID' => 'w0t0p1:CBA43277-7356-4E8C-9DB1-EDDA780AC5A6'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.l6rkY5Tnjv/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:CBA43277-7356-4E8C-9DB1-EDDA780AC5A6'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.CuMVEvInVw/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482995245.33
+    'REQUEST_TIME' => 1482995245
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/create'
+        2 => 'create_warehouse_img_table'
+    ]
+    'argc' => 3
+]
+2016-12-29 08:17:11 [-][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-29 08:17:08 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.DasC3Z5WRH/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/Users/wangxl'
+    'TERM_SESSION_ID' => 'w0t0p1:CBA43277-7356-4E8C-9DB1-EDDA780AC5A6'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.l6rkY5Tnjv/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:CBA43277-7356-4E8C-9DB1-EDDA780AC5A6'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.CuMVEvInVw/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482995828.75
+    'REQUEST_TIME' => 1482995828
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2016-12-29 08:35:52 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' in /code/yii2/modules/controllers/WarehouseController.php:75
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\WarehouseController->actionCreate()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#4 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#6 /code/yii2/index.php(12): yii\base\Application->run()
+#7 {main}
+2016-12-29 08:35:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse/create'
+]
+
+$_POST = [
+    '_csrf' => 'R0RhVk81M1M/PTYnKm8GAB4yAgAjBGU0Ai47JQZYAAAdFjICBXx1Fw=='
+    'WarehouseInfo' => [
+        'name' => '安阳一号院'
+        'desc' => '安安安难啊难受到妇女数据德弗里斯解放军胜利发生的纠纷是加夫里什的加夫里什地方'
+        'address' => '安阳'
+        'url' => ''
+        'contact' => '王晓亮'
+        'phone' => '12'
+        'area' => '121'
+        'price' => '12'
+        'status' => '1'
+    ]
+]
+
+$_FILES = [
+    'WarehouseInfo' => [
+        'name' => [
+            'url' => '1.pic.jpg'
+        ]
+        'type' => [
+            'url' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'url' => '/Applications/MAMP/tmp/php/phpjqR8XC'
+        ]
+        'error' => [
+            'url' => 0
+        ]
+        'size' => [
+            'url' => 294973
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------1037956319922188852838555165'
+    'CONTENT_LENGTH' => '296637'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '54552'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fwarehouse%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482996952.07
+    'REQUEST_TIME' => 1482996952
+    'argv' => [
+        0 => 'r=admin%2Fwarehouse%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-12-29 08:37:06 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' in /code/yii2/modules/controllers/WarehouseController.php:75
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\WarehouseController->actionCreate()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#4 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#6 /code/yii2/index.php(12): yii\base\Application->run()
+#7 {main}
+2016-12-29 08:37:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse/create'
+]
+
+$_POST = [
+    '_csrf' => 'R0RhVk81M1M/PTYnKm8GAB4yAgAjBGU0Ai47JQZYAAAdFjICBXx1Fw=='
+    'WarehouseInfo' => [
+        'name' => '安阳一号院'
+        'desc' => '安安安难啊难受到妇女数据德弗里斯解放军胜利发生的纠纷是加夫里什的加夫里什地方'
+        'address' => '安阳'
+        'url' => ''
+        'contact' => '王晓亮'
+        'phone' => '12'
+        'area' => '121'
+        'price' => '12'
+        'status' => '1'
+    ]
+]
+
+$_FILES = [
+    'WarehouseInfo' => [
+        'name' => [
+            'url' => '1.pic.jpg'
+        ]
+        'type' => [
+            'url' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'url' => '/Applications/MAMP/tmp/php/phpClKria'
+        ]
+        'error' => [
+            'url' => 0
+        ]
+        'size' => [
+            'url' => 294973
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------1037956319922188852838555165'
+    'CONTENT_LENGTH' => '296637'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '54565'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fwarehouse%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482997025.89
+    'REQUEST_TIME' => 1482997025
+    'argv' => [
+        0 => 'r=admin%2Fwarehouse%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-12-29 08:37:19 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' in /code/yii2/modules/controllers/WarehouseController.php:75
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\WarehouseController->actionCreate()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#4 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#6 /code/yii2/index.php(12): yii\base\Application->run()
+#7 {main}
+2016-12-29 08:37:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse/create'
+]
+
+$_POST = [
+    '_csrf' => 'R0RhVk81M1M/PTYnKm8GAB4yAgAjBGU0Ai47JQZYAAAdFjICBXx1Fw=='
+    'WarehouseInfo' => [
+        'name' => '安阳一号院'
+        'desc' => '安安安难啊难受到妇女数据德弗里斯解放军胜利发生的纠纷是加夫里什的加夫里什地方'
+        'address' => '安阳'
+        'url' => ''
+        'contact' => '王晓亮'
+        'phone' => '12'
+        'area' => '121'
+        'price' => '12'
+        'status' => '1'
+    ]
+]
+
+$_FILES = [
+    'WarehouseInfo' => [
+        'name' => [
+            'url' => '1.pic.jpg'
+        ]
+        'type' => [
+            'url' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'url' => '/Applications/MAMP/tmp/php/phpYqSD1h'
+        ]
+        'error' => [
+            'url' => 0
+        ]
+        'size' => [
+            'url' => 294973
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------1037956319922188852838555165'
+    'CONTENT_LENGTH' => '296637'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '54572'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fwarehouse%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482997039.14
+    'REQUEST_TIME' => 1482997039
+    'argv' => [
+        0 => 'r=admin%2Fwarehouse%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-12-29 08:38:28 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' in /code/yii2/modules/controllers/WarehouseController.php:76
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\WarehouseController->actionCreate()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#4 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#6 /code/yii2/index.php(12): yii\base\Application->run()
+#7 {main}
+2016-12-29 08:38:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse/create'
+]
+
+$_POST = [
+    '_csrf' => 'R0RhVk81M1M/PTYnKm8GAB4yAgAjBGU0Ai47JQZYAAAdFjICBXx1Fw=='
+    'WarehouseInfo' => [
+        'name' => '安阳一号院'
+        'desc' => '安安安难啊难受到妇女数据德弗里斯解放军胜利发生的纠纷是加夫里什的加夫里什地方'
+        'address' => '安阳'
+        'url' => ''
+        'contact' => '王晓亮'
+        'phone' => '12'
+        'area' => '121'
+        'price' => '12'
+        'status' => '1'
+    ]
+]
+
+$_FILES = [
+    'WarehouseInfo' => [
+        'name' => [
+            'url' => '1.pic.jpg'
+        ]
+        'type' => [
+            'url' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'url' => '/Applications/MAMP/tmp/php/phpIHNrNe'
+        ]
+        'error' => [
+            'url' => 0
+        ]
+        'size' => [
+            'url' => 294973
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------1037956319922188852838555165'
+    'CONTENT_LENGTH' => '296637'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '54585'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fwarehouse%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482997108.89
+    'REQUEST_TIME' => 1482997108
+    'argv' => [
+        0 => 'r=admin%2Fwarehouse%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-12-29 08:39:50 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' in /code/yii2/modules/controllers/WarehouseController.php:76
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\WarehouseController->actionCreate()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#4 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#6 /code/yii2/index.php(12): yii\base\Application->run()
+#7 {main}
+2016-12-29 08:39:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse/create'
+]
+
+$_POST = [
+    '_csrf' => 'R0RhVk81M1M/PTYnKm8GAB4yAgAjBGU0Ai47JQZYAAAdFjICBXx1Fw=='
+    'WarehouseInfo' => [
+        'name' => '安阳一号院'
+        'desc' => '安安安难啊难受到妇女数据德弗里斯解放军胜利发生的纠纷是加夫里什的加夫里什地方'
+        'address' => '安阳'
+        'url' => ''
+        'contact' => '王晓亮'
+        'phone' => '12'
+        'area' => '121'
+        'price' => '12'
+        'status' => '1'
+    ]
+]
+
+$_FILES = [
+    'WarehouseInfo' => [
+        'name' => [
+            'url' => '1.pic.jpg'
+        ]
+        'type' => [
+            'url' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'url' => '/Applications/MAMP/tmp/php/phptxCyec'
+        ]
+        'error' => [
+            'url' => 0
+        ]
+        'size' => [
+            'url' => 294973
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------1037956319922188852838555165'
+    'CONTENT_LENGTH' => '296637'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '54598'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fwarehouse%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482997189.92
+    'REQUEST_TIME' => 1482997189
+    'argv' => [
+        0 => 'r=admin%2Fwarehouse%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-12-29 08:40:09 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'mkdir(): No such file or directory' in /code/yii2/modules/controllers/WarehouseController.php:76
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\WarehouseController->actionCreate()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#4 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#6 /code/yii2/index.php(12): yii\base\Application->run()
+#7 {main}
+2016-12-29 08:40:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse/create'
+]
+
+$_POST = [
+    '_csrf' => 'R0RhVk81M1M/PTYnKm8GAB4yAgAjBGU0Ai47JQZYAAAdFjICBXx1Fw=='
+    'WarehouseInfo' => [
+        'name' => '安阳一号院'
+        'desc' => '安安安难啊难受到妇女数据德弗里斯解放军胜利发生的纠纷是加夫里什的加夫里什地方'
+        'address' => '安阳'
+        'url' => ''
+        'contact' => '王晓亮'
+        'phone' => '12'
+        'area' => '121'
+        'price' => '12'
+        'status' => '1'
+    ]
+]
+
+$_FILES = [
+    'WarehouseInfo' => [
+        'name' => [
+            'url' => '1.pic.jpg'
+        ]
+        'type' => [
+            'url' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'url' => '/Applications/MAMP/tmp/php/php9SDNVy'
+        ]
+        'error' => [
+            'url' => 0
+        ]
+        'size' => [
+            'url' => 294973
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------1037956319922188852838555165'
+    'CONTENT_LENGTH' => '296637'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '54602'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fwarehouse%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482997209.79
+    'REQUEST_TIME' => 1482997209
+    'argv' => [
+        0 => 'r=admin%2Fwarehouse%2Fcreate'
+    ]
+    'argc' => 1
+]
+2016-12-29 09:06:38 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class Closure could not be converted to string' in /code/yii2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer.php:298
+Stack trace:
+#0 /code/yii2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/DOMLex.php(50): HTMLPurifier_Lexer->normalize()
+#1 /code/yii2/vendor/ezyang/htmlpurifier/library/HTMLPurifier.php(216): HTMLPurifier_Lexer_DOMLex->tokenizeHTML()
+#2 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtmlPurifier.php(58): HTMLPurifier->purify()
+#3 /code/yii2/vendor/yiisoft/yii2/i18n/Formatter.php(395): yii\helpers\BaseHtmlPurifier::process()
+#4 /code/yii2/vendor/yiisoft/yii2/i18n/Formatter.php(316): yii\i18n\Formatter->asHtml()
+#5 /code/yii2/vendor/yiisoft/yii2/i18n/Formatter.php(316): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/i18n/Formatter.php:316}()
+#6 /code/yii2/vendor/yiisoft/yii2/widgets/DetailView.php(168): yii\i18n\Formatter->format()
+#7 /code/yii2/vendor/yiisoft/yii2/widgets/DetailView.php(147): yii\widgets\DetailView->renderAttribute()
+#8 /code/yii2/vendor/yiisoft/yii2/base/Widget.php(102): yii\widgets\DetailView->run()
+#9 /code/yii2/modules/views/warehouse/view.php(43): yii\base\Widget::widget()
+#10 /code/yii2/vendor/yiisoft/yii2/base/View.php(326): ::unknown()
+#11 /code/yii2/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile()
+#12 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile()
+#13 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render()
+#14 /code/yii2/modules/controllers/WarehouseController.php(57): yii\base\Controller->render()
+#15 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\WarehouseController->actionView()
+#16 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#17 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#18 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#19 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#20 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#21 /code/yii2/index.php(12): yii\base\Application->run()
+#22 {main}
+2016-12-29 09:06:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse/view'
+    'id' => '5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '54888'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fwarehouse%2Fview&id=5'
+    'REQUEST_URI' => '/index.php?r=admin%2Fwarehouse%2Fview&id=5'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482998798.65
+    'REQUEST_TIME' => 1482998798
+    'argv' => [
+        0 => 'r=admin%2Fwarehouse%2Fview&id=5'
+    ]
+    'argc' => 1
+]
+2016-12-29 09:23:03 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class Closure could not be converted to string' in /code/yii2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer.php:298
+Stack trace:
+#0 /code/yii2/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/DOMLex.php(50): HTMLPurifier_Lexer->normalize()
+#1 /code/yii2/vendor/ezyang/htmlpurifier/library/HTMLPurifier.php(216): HTMLPurifier_Lexer_DOMLex->tokenizeHTML()
+#2 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtmlPurifier.php(58): HTMLPurifier->purify()
+#3 /code/yii2/vendor/yiisoft/yii2/i18n/Formatter.php(395): yii\helpers\BaseHtmlPurifier::process()
+#4 /code/yii2/vendor/yiisoft/yii2/i18n/Formatter.php(316): yii\i18n\Formatter->asHtml()
+#5 /code/yii2/vendor/yiisoft/yii2/i18n/Formatter.php(316): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/i18n/Formatter.php:316}()
+#6 /code/yii2/vendor/yiisoft/yii2/widgets/DetailView.php(168): yii\i18n\Formatter->format()
+#7 /code/yii2/vendor/yiisoft/yii2/widgets/DetailView.php(147): yii\widgets\DetailView->renderAttribute()
+#8 /code/yii2/vendor/yiisoft/yii2/base/Widget.php(102): yii\widgets\DetailView->run()
+#9 /code/yii2/modules/views/warehouse/view.php(43): yii\base\Widget::widget()
+#10 /code/yii2/vendor/yiisoft/yii2/base/View.php(326): ::unknown()
+#11 /code/yii2/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile()
+#12 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile()
+#13 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render()
+#14 /code/yii2/modules/controllers/WarehouseController.php(57): yii\base\Controller->render()
+#15 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\WarehouseController->actionView()
+#16 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#17 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#18 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#19 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#20 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#21 /code/yii2/index.php(12): yii\base\Application->run()
+#22 {main}
+2016-12-29 09:23:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse/view'
+    'id' => '5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Fcreate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55030'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fwarehouse%2Fview&id=5'
+    'REQUEST_URI' => '/index.php?r=admin%2Fwarehouse%2Fview&id=5'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482999783.43
+    'REQUEST_TIME' => 1482999783
+    'argv' => [
+        0 => 'r=admin%2Fwarehouse%2Fview&id=5'
+    ]
+    'argc' => 1
+]
+2016-12-29 09:51:44 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant ture - assumed 'ture'' in /code/yii2/modules/controllers/WarehouseController.php:29
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/Component.php(528): yii\base\Component->ensureBehaviors()
+#1 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger()
+#2 /code/yii2/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#6 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#7 /code/yii2/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-12-29 09:51:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Findex'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55301'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fwarehouse%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fwarehouse%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483001504.93
+    'REQUEST_TIME' => 1483001504
+    'argv' => [
+        0 => 'r=admin%2Fwarehouse%2Findex'
+    ]
+    'argc' => 1
+]
+2016-12-29 09:52:01 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\filters\AccessRule::0' in /code/yii2/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('0', '@')
+#1 /code/yii2/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\filters\AccessRule), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /code/yii2/vendor/yiisoft/yii2/di/Container.php(379): ReflectionClass->newInstanceArgs(Array)
+#4 /code/yii2/vendor/yiisoft/yii2/di/Container.php(154): yii\di\Container->build('yii\\filters\\Acc...', Array, Array)
+#5 /code/yii2/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\filters\\Acc...', Array, Array)
+#6 /code/yii2/vendor/yiisoft/yii2/filters/AccessControl.php(101): yii\BaseYii::createObject(Array)
+#7 /code/yii2/vendor/yiisoft/yii2/base/Object.php(107): yii\filters\AccessControl->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 /code/yii2/vendor/yiisoft/yii2/di/Container.php(379): ReflectionClass->newInstanceArgs(Array)
+#10 /code/yii2/vendor/yiisoft/yii2/di/Container.php(154): yii\di\Container->build('yii\\filters\\Acc...', Array, Array)
+#11 /code/yii2/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\filters\\Acc...', Array, Array)
+#12 /code/yii2/vendor/yiisoft/yii2/base/Component.php(662): yii\BaseYii::createObject(Array)
+#13 /code/yii2/vendor/yiisoft/yii2/base/Component.php(646): yii\base\Component->attachBehaviorInternal('access', Array)
+#14 /code/yii2/vendor/yiisoft/yii2/base/Component.php(528): yii\base\Component->ensureBehaviors()
+#15 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#16 /code/yii2/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#17 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#18 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#19 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/warehouse...', Array)
+#20 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 /code/yii2/index.php(12): yii\base\Application->run()
+#22 {main}
+2016-12-29 09:52:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Findex'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55312'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fwarehouse%2Findex'
+    'REQUEST_URI' => '/index.php?r=admin%2Fwarehouse%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483001521.78
+    'REQUEST_TIME' => 1483001521
+    'argv' => [
+        0 => 'r=admin%2Fwarehouse%2Findex'
+    ]
+    'argc' => 1
+]
+2016-12-29 09:53:28 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\LoginForm::password_hash' in /code/yii2/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(2044): yii\base\Component->__get('password_hash')
+#1 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(1246): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\LoginForm), 'password_hash')
+#2 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(1336): yii\helpers\BaseHtml::activeInput('password', Object(app\models\LoginForm), 'password_hash', Array)
+#3 /code/yii2/vendor/yiisoft/yii2/widgets/ActiveField.php(431): yii\helpers\BaseHtml::activePasswordInput(Object(app\models\LoginForm), 'password_hash', Array)
+#4 /code/yii2/modules/views/site/login.php(40): yii\widgets\ActiveField->passwordInput(Array)
+#5 /code/yii2/vendor/yiisoft/yii2/base/View.php(326): require('/code/yii2/modu...')
+#6 /code/yii2/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/code/yii2/modu...', Array)
+#7 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile('/code/yii2/view...', Array, Object(app\controllers\SiteController))
+#8 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\controllers\SiteController))
+#9 /code/yii2/controllers/SiteController.php(96): yii\base\Controller->render('login', Array)
+#10 [internal function]: app\controllers\SiteController->actionLogin()
+#11 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#14 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('site/login', Array)
+#15 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /code/yii2/index.php(12): yii\base\Application->run()
+#17 {main}
+2016-12-29 09:53:28 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin%2Fwarehouse%2Fcreate'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Findex'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55339'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483001608.37
+    'REQUEST_TIME' => 1483001608
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2016-12-29 09:55:02 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\LoginForm::password_hash' in /code/yii2/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(2044): yii\base\Component->__get('password_hash')
+#1 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(1246): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\LoginForm), 'password_hash')
+#2 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(1336): yii\helpers\BaseHtml::activeInput('password', Object(app\models\LoginForm), 'password_hash', Array)
+#3 /code/yii2/vendor/yiisoft/yii2/widgets/ActiveField.php(431): yii\helpers\BaseHtml::activePasswordInput(Object(app\models\LoginForm), 'password_hash', Array)
+#4 /code/yii2/modules/views/site/login.php(40): yii\widgets\ActiveField->passwordInput(Array)
+#5 /code/yii2/vendor/yiisoft/yii2/base/View.php(326): require('/code/yii2/modu...')
+#6 /code/yii2/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/code/yii2/modu...', Array)
+#7 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile('/code/yii2/view...', Array, Object(app\controllers\SiteController))
+#8 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\controllers\SiteController))
+#9 /code/yii2/controllers/SiteController.php(96): yii\base\Controller->render('login', Array)
+#10 [internal function]: app\controllers\SiteController->actionLogin()
+#11 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#14 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('site/login', Array)
+#15 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /code/yii2/index.php(12): yii\base\Application->run()
+#17 {main}
+2016-12-29 09:55:02 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin%2Fwarehouse%2Fcreate'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Findex'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55367'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483001702.09
+    'REQUEST_TIME' => 1483001702
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2016-12-29 09:55:41 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\LoginForm::password_hash' in /code/yii2/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(2044): yii\base\Component->__get('password_hash')
+#1 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(1246): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\LoginForm), 'password_hash')
+#2 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(1336): yii\helpers\BaseHtml::activeInput('password', Object(app\models\LoginForm), 'password_hash', Array)
+#3 /code/yii2/vendor/yiisoft/yii2/widgets/ActiveField.php(431): yii\helpers\BaseHtml::activePasswordInput(Object(app\models\LoginForm), 'password_hash', Array)
+#4 /code/yii2/modules/views/site/login.php(40): yii\widgets\ActiveField->passwordInput(Array)
+#5 /code/yii2/vendor/yiisoft/yii2/base/View.php(326): require('/code/yii2/modu...')
+#6 /code/yii2/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/code/yii2/modu...', Array)
+#7 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile('/code/yii2/view...', Array, Object(app\controllers\SiteController))
+#8 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\controllers\SiteController))
+#9 /code/yii2/controllers/SiteController.php(96): yii\base\Controller->render('login', Array)
+#10 [internal function]: app\controllers\SiteController->actionLogin()
+#11 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#14 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('site/login', Array)
+#15 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /code/yii2/index.php(12): yii\base\Application->run()
+#17 {main}
+2016-12-29 09:55:41 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin%2Fwarehouse%2Fcreate'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin%2Fwarehouse%2Findex'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55378'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483001741.09
+    'REQUEST_TIME' => 1483001741
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2016-12-29 10:20:40 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'Your request was made with invalid credentials.' in /code/yii2/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:91
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(74): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /code/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /code/yii2/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /code/yii2/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#8 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/warehouse', Array)
+#9 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /code/yii2/index.php(12): yii\base\Application->run()
+#11 {main}
+2016-12-29 10:20:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55583'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/warehouse'
+    'REQUEST_URI' => '/index.php?r=admin/warehouse'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483003240.05
+    'REQUEST_TIME' => 1483003240
+    'argv' => [
+        0 => 'r=admin/warehouse'
+    ]
+    'argc' => 1
+]
+2016-12-29 10:20:50 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'Your request was made with invalid credentials.' in /code/yii2/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:91
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/filters/auth/HttpBasicAuth.php(103): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /code/yii2/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(61): yii\filters\auth\HttpBasicAuth->authenticate(Object(yii\web\User), Object(yii\web\Request), Object(yii\web\Response))
+#2 /code/yii2/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\auth\AuthMethod->beforeAction(Object(yii\base\InlineAction))
+#3 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#4 /code/yii2/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#5 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#6 /code/yii2/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#8 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#9 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/warehouse', Array)
+#10 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /code/yii2/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-29 10:20:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55584'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/warehouse'
+    'REQUEST_URI' => '/index.php?r=admin/warehouse'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483003250.67
+    'REQUEST_TIME' => 1483003250
+    'argv' => [
+        0 => 'r=admin/warehouse'
+    ]
+    'argc' => 1
+]
+2016-12-29 10:31:49 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /code/yii2/modules/views/site/index.php' in /code/yii2/vendor/yiisoft/yii2/base/View.php:227
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile('/code/yii2/modu...', Array, Object(app\modules\controllers\SiteController))
+#1 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\modules\controllers\SiteController))
+#2 /code/yii2/modules/controllers/SiteController.php(19): yii\base\Controller->render('index')
+#3 [internal function]: app\modules\controllers\SiteController->actionIndex()
+#4 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#7 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/site/', Array)
+#8 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /code/yii2/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-12-29 10:31:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/site/'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55612'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/site/'
+    'REQUEST_URI' => '/index.php?r=admin/site/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483003909.15
+    'REQUEST_TIME' => 1483003909
+    'argv' => [
+        0 => 'r=admin/site/'
+    ]
+    'argc' => 1
+]
+2016-12-29 10:40:49 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\controllers\SiteController::rememberMe' in /code/yii2/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /code/yii2/modules/controllers/SiteController.php(23): yii\base\Component->__get('rememberMe')
+#1 [internal function]: app\modules\controllers\SiteController->actionLogin()
+#2 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#5 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/site/logi...', Array)
+#6 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /code/yii2/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-12-29 10:40:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'OE04WWk2eDFANG8oDGxNYmE7Ww8FBy5WfSdiKiBbS2JiH2sNI38.dQ=='
+    'AdminUser' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '0'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '185'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55721'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483004449.07
+    'REQUEST_TIME' => 1483004449
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 10:41:28 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must be an instance of yii\web\IdentityInterface, string given, called in /code/yii2/modules/controllers/SiteController.php on line 23 and defined' in /code/yii2/vendor/yiisoft/yii2/web/User.php:245
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#4 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#6 /code/yii2/index.php(12): yii\base\Application->run()
+#7 {main}
+2016-12-29 10:41:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'OE04WWk2eDFANG8oDGxNYmE7Ww8FBy5WfSdiKiBbS2JiH2sNI38.dQ=='
+    'AdminUser' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '0'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '185'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55729'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483004488.68
+    'REQUEST_TIME' => 1483004488
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 10:50:31 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\models\User' not found' in /code/yii2/modules/models/AdminUser.php:76
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php(69): app\modules\models\AdminUser->validatePassword()
+#1 /code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php(69): ::call_user_func:{/code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php:69}()
+#2 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(265): yii\validators\InlineValidator->validateAttribute()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes()
+#4 /code/yii2/modules/models/AdminUser.php(62): yii\base\Model->validate()
+#5 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\AdminUser->login()
+#6 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#7 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#8 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#9 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#10 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#11 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#12 /code/yii2/index.php(12): yii\base\Application->run()
+#13 {main}
+2016-12-29 10:50:31 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'OE04WWk2eDFANG8oDGxNYmE7Ww8FBy5WfSdiKiBbS2JiH2sNI38.dQ=='
+    'AdminUser' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '0'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '185'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55762'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483005031.38
+    'REQUEST_TIME' => 1483005031
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 10:54:59 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\modules\models\AdminUser::login()' in /code/yii2/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /code/yii2/modules/controllers/SiteController.php(30): yii\base\Component->__call('login', Array)
+#1 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\AdminUser->login()
+#2 [internal function]: app\modules\controllers\SiteController->actionLogin()
+#3 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#6 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/site/logi...', Array)
+#7 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /code/yii2/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-29 10:54:59 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'OE04WWk2eDFANG8oDGxNYmE7Ww8FBy5WfSdiKiBbS2JiH2sNI38.dQ=='
+    'AdminUser' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '0'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '185'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55780'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483005299.4
+    'REQUEST_TIME' => 1483005299
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 10:56:01 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\modules\models\LoginForm' in file: /code/yii2/modules/models/LoginForm.php. Namespace missing?' in /code/yii2/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\modules\\mod...')
+#1 /code/yii2/modules/controllers/SiteController.php(18): spl_autoload_call('app\\modules\\mod...')
+#2 [internal function]: app\modules\controllers\SiteController->actionLogin()
+#3 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#6 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/site/logi...', Array)
+#7 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /code/yii2/index.php(12): yii\base\Application->run()
+#9 {main}
+2016-12-29 10:56:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'OE04WWk2eDFANG8oDGxNYmE7Ww8FBy5WfSdiKiBbS2JiH2sNI38.dQ=='
+    'AdminUser' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '0'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '185'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55797'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483005361.71
+    'REQUEST_TIME' => 1483005361
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 10:56:38 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\LoginForm::password' in /code/yii2/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(279): yii\base\Component->__get('password')
+#1 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(265): yii\validators\Validator->validateAttribute(Object(app\modules\models\LoginForm), 'password')
+#2 /code/yii2/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\LoginForm), Array)
+#3 /code/yii2/modules/models/LoginForm.php(62): yii\base\Model->validate()
+#4 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#5 [internal function]: app\modules\controllers\SiteController->actionLogin()
+#6 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#9 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/site/logi...', Array)
+#10 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /code/yii2/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-29 10:56:38 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'U3BsVW5qY2crCTskCzBWNAoGDwMCWzUAFho2JicHUDQJIj8BJCMlIw=='
+    'LoginForm' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '213'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55818'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483005398.8
+    'REQUEST_TIME' => 1483005398
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 11:05:48 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\LoginForm::password' in /code/yii2/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(279): yii\base\Component->__get('password')
+#1 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(265): yii\validators\Validator->validateAttribute(Object(app\modules\models\LoginForm), 'password')
+#2 /code/yii2/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\LoginForm), Array)
+#3 /code/yii2/modules/models/LoginForm.php(62): yii\base\Model->validate()
+#4 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#5 [internal function]: app\modules\controllers\SiteController->actionLogin()
+#6 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#9 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/site/logi...', Array)
+#10 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /code/yii2/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-29 11:05:48 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'U3BsVW5qY2crCTskCzBWNAoGDwMCWzUAFho2JicHUDQJIj8BJCMlIw=='
+    'LoginForm' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '213'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55833'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483005948.38
+    'REQUEST_TIME' => 1483005948
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 11:06:20 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\LoginForm::password' in /code/yii2/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(279): yii\base\Component->__get('password')
+#1 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(265): yii\validators\Validator->validateAttribute(Object(app\modules\models\LoginForm), 'password')
+#2 /code/yii2/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\LoginForm), Array)
+#3 /code/yii2/modules/models/LoginForm.php(62): yii\base\Model->validate()
+#4 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#5 [internal function]: app\modules\controllers\SiteController->actionLogin()
+#6 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#9 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/site/logi...', Array)
+#10 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /code/yii2/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-29 11:06:19 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'U3BsVW5qY2crCTskCzBWNAoGDwMCWzUAFho2JicHUDQJIj8BJCMlIw=='
+    'LoginForm' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '213'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55840'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483005979.95
+    'REQUEST_TIME' => 1483005979
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 11:08:24 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Access to undeclared static property: app\modules\models\AdminUser::$users' in /code/yii2/modules/models/AdminUser.php:66
+Stack trace:
+#0 /code/yii2/modules/models/LoginForm.php(48): app\modules\models\LoginForm->getUser()
+#1 /code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php(69): app\modules\models\LoginForm->validatePassword()
+#2 /code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php(69): ::call_user_func:{/code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php:69}()
+#3 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(265): yii\validators\InlineValidator->validateAttribute()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes()
+#5 /code/yii2/modules/models/LoginForm.php(62): yii\base\Model->validate()
+#6 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#7 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#8 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#9 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#10 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#11 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#12 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#13 /code/yii2/index.php(12): yii\base\Application->run()
+#14 {main}
+2016-12-29 11:08:24 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'U3BsVW5qY2crCTskCzBWNAoGDwMCWzUAFho2JicHUDQJIj8BJCMlIw=='
+    'LoginForm' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '213'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55845'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483006104.1
+    'REQUEST_TIME' => 1483006104
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 11:09:42 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\modules\models\AdminUser::validatePassword()' in /code/yii2/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /code/yii2/modules/models/LoginForm.php(50): yii\base\Component->__call('validatePasswor...', Array)
+#1 /code/yii2/modules/models/LoginForm.php(50): app\modules\models\AdminUser->validatePassword('demo')
+#2 [internal function]: app\modules\models\LoginForm->validatePassword('password_hash', NULL)
+#3 /code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php(69): call_user_func(Array, 'password_hash', NULL)
+#4 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(265): yii\validators\InlineValidator->validateAttribute(Object(app\modules\models\LoginForm), 'password_hash')
+#5 /code/yii2/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\LoginForm), Array)
+#6 /code/yii2/modules/models/LoginForm.php(62): yii\base\Model->validate()
+#7 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#8 [internal function]: app\modules\controllers\SiteController->actionLogin()
+#9 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#10 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#12 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/site/logi...', Array)
+#13 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /code/yii2/index.php(12): yii\base\Application->run()
+#15 {main}
+2016-12-29 11:09:42 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'U3BsVW5qY2crCTskCzBWNAoGDwMCWzUAFho2JicHUDQJIj8BJCMlIw=='
+    'LoginForm' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '213'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55853'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483006182.1
+    'REQUEST_TIME' => 1483006182
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 11:11:11 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must be an instance of yii\web\IdentityInterface, instance of app\modules\models\AdminUser given, called in /code/yii2/modules/models/LoginForm.php on line 63 and defined' in /code/yii2/vendor/yiisoft/yii2/web/User.php:245
+Stack trace:
+#0 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#2 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#6 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#7 /code/yii2/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-12-29 11:11:11 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'U3BsVW5qY2crCTskCzBWNAoGDwMCWzUAFho2JicHUDQJIj8BJCMlIw=='
+    'LoginForm' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '213'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55858'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483006271.31
+    'REQUEST_TIME' => 1483006271
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 11:18:48 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function validatePassword() on a non-object' in /code/yii2/modules/models/LoginForm.php:50
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php(69): ::call_user_func:{/code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php:69}()
+#1 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(265): yii\validators\InlineValidator->validateAttribute()
+#2 /code/yii2/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes()
+#3 /code/yii2/modules/models/LoginForm.php(62): yii\base\Model->validate()
+#4 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#5 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#6 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#7 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#9 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#10 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#11 /code/yii2/index.php(12): yii\base\Application->run()
+#12 {main}
+2016-12-29 11:18:48 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'U3BsVW5qY2crCTskCzBWNAoGDwMCWzUAFho2JicHUDQJIj8BJCMlIw=='
+    'LoginForm' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '213'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55871'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483006728.85
+    'REQUEST_TIME' => 1483006728
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 11:21:11 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must be an instance of yii\web\IdentityInterface, instance of app\modules\models\AdminUser given, called in /code/yii2/modules/models/LoginForm.php on line 63 and defined' in /code/yii2/vendor/yiisoft/yii2/web/User.php:245
+Stack trace:
+#0 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#2 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#6 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#7 /code/yii2/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-12-29 11:21:11 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'U3BsVW5qY2crCTskCzBWNAoGDwMCWzUAFho2JicHUDQJIj8BJCMlIw=='
+    'LoginForm' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '213'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55884'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483006871.71
+    'REQUEST_TIME' => 1483006871
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 11:43:07 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must be an instance of yii\web\IdentityInterface, instance of app\modules\models\AdminUser given, called in /code/yii2/modules/models/LoginForm.php on line 64 and defined' in /code/yii2/vendor/yiisoft/yii2/web/User.php:245
+Stack trace:
+#0 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#2 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#6 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#7 /code/yii2/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-12-29 11:43:07 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Rng1RWczS0I.AWI0Aml.ER8OVhMLAh0lAxJvNi5eeBEcKmYRLXoNBg=='
+    'LoginForm' => [
+        'username' => 'test'
+        'password_hash' => 'yidaichu888'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '220'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '55991'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483008187.03
+    'REQUEST_TIME' => 1483008187
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 11:47:08 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must be an instance of yii\web\IdentityInterface, instance of app\modules\models\AdminUser given, called in /code/yii2/modules/models/LoginForm.php on line 64 and defined' in /code/yii2/vendor/yiisoft/yii2/web/User.php:245
+Stack trace:
+#0 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#2 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#6 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#7 /code/yii2/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-12-29 11:47:08 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Rng1RWczS0I.AWI0Aml.ER8OVhMLAh0lAxJvNi5eeBEcKmYRLXoNBg=='
+    'LoginForm' => [
+        'username' => 'test'
+        'password_hash' => 'yidaichu888'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '220'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '56004'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483008428.18
+    'REQUEST_TIME' => 1483008428
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 11:49:39 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must be an instance of yii\web\IdentityInterface, instance of app\modules\models\AdminUser given, called in /code/yii2/modules/models/LoginForm.php on line 65 and defined' in /code/yii2/vendor/yiisoft/yii2/web/User.php:245
+Stack trace:
+#0 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#2 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#6 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#7 /code/yii2/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-12-29 11:49:39 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Rng1RWczS0I.AWI0Aml.ER8OVhMLAh0lAxJvNi5eeBEcKmYRLXoNBg=='
+    'LoginForm' => [
+        'username' => 'test'
+        'password_hash' => 'yidaichu888'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '220'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '56011'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483008579.12
+    'REQUEST_TIME' => 1483008579
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 11:54:10 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must be an instance of yii\web\IdentityInterface, instance of app\modules\models\AdminUser given, called in /code/yii2/modules/models/LoginForm.php on line 65 and defined' in /code/yii2/vendor/yiisoft/yii2/web/User.php:245
+Stack trace:
+#0 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#1 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#2 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#3 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#5 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#6 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#7 /code/yii2/index.php(12): yii\base\Application->run()
+#8 {main}
+2016-12-29 11:54:07 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Rng1RWczS0I.AWI0Aml.ER8OVhMLAh0lAxJvNi5eeBEcKmYRLXoNBg=='
+    'LoginForm' => [
+        'username' => 'test'
+        'password_hash' => 'yidaichu888'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '220'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '56030'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483008847.38
+    'REQUEST_TIME' => 1483008847
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 12:00:37 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method app\modules\models\AdminUser::findOne()' in /code/yii2/modules/models/AdminUser.php:74
+Stack trace:
+#0 /code/yii2/modules/models/LoginForm.php(48): app\modules\models\LoginForm->getUser()
+#1 /code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php(69): app\modules\models\LoginForm->validatePassword()
+#2 /code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php(69): ::call_user_func:{/code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php:69}()
+#3 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(265): yii\validators\InlineValidator->validateAttribute()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes()
+#5 /code/yii2/modules/models/LoginForm.php(63): yii\base\Model->validate()
+#6 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#7 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#8 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#9 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#10 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#11 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#12 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#13 /code/yii2/index.php(12): yii\base\Application->run()
+#14 {main}
+2016-12-29 12:00:37 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Rng1RWczS0I.AWI0Aml.ER8OVhMLAh0lAxJvNi5eeBEcKmYRLXoNBg=='
+    'LoginForm' => [
+        'username' => 'test'
+        'password_hash' => 'yidaichu888'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '220'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '56085'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483009237.57
+    'REQUEST_TIME' => 1483009237
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 12:02:09 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method app\modules\models\AdminUser::findOne()' in /code/yii2/modules/models/AdminUser.php:74
+Stack trace:
+#0 /code/yii2/modules/models/LoginForm.php(48): app\modules\models\LoginForm->getUser()
+#1 /code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php(69): app\modules\models\LoginForm->validatePassword()
+#2 /code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php(69): ::call_user_func:{/code/yii2/vendor/yiisoft/yii2/validators/InlineValidator.php:69}()
+#3 /code/yii2/vendor/yiisoft/yii2/validators/Validator.php(265): yii\validators\InlineValidator->validateAttribute()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes()
+#5 /code/yii2/modules/models/LoginForm.php(63): yii\base\Model->validate()
+#6 /code/yii2/modules/controllers/SiteController.php(30): app\modules\models\LoginForm->login()
+#7 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\SiteController->actionLogin()
+#8 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#9 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#10 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#11 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#12 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#13 /code/yii2/index.php(12): yii\base\Application->run()
+#14 {main}
+2016-12-29 12:02:09 [127.0.0.1][-][561b294ce3e4888db7974748194b3c4b][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Rng1RWczS0I.AWI0Aml.ER8OVhMLAh0lAxJvNi5eeBEcKmYRLXoNBg=='
+    'LoginForm' => [
+        'username' => 'test'
+        'password_hash' => 'yidaichu888'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=admin/warehouse'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '220'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '56089'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'PHP_AUTH_USER' => 'root'
+    'PHP_AUTH_PW' => 'root'
+    'REQUEST_TIME_FLOAT' => 1483009329.24
+    'REQUEST_TIME' => 1483009329
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]

@@ -14,15 +14,16 @@ class m161229_050430_create_warehouse_info_table extends Migration
     {
         $this->createTable('warehouse_info', [
             'id' => $this->primaryKey(),
-            'name' => $this->string()->notNull(),
+            'name' => $this->string(200)->notNull(),
             'desc' => $this->text(),
-            'address' => $this->string(),
-            'contact'=>$this->string(),
-            'phone' => $this->string(),
+            'address' => $this->string(300),
+            'contact'=>$this->string(100),
+            'phone' => $this->string(100),
             'area' => $this->integer(6),
             'price' => $this->decimal(10,2),
-            'create_time'=>$this->date(),
-            'update_time' => $this->date(),
+            'create_time'=>$this->dateTime(),
+            'url'=>$this->string(200)->notNull()->defaultValue(''),
+            'update_time' => $this->dateTime(),
             'status' => $this->smallInteger(1)->defaultValue(0),
         ]);
     }

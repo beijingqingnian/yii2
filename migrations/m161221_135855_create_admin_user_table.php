@@ -14,11 +14,11 @@ class m161221_135855_create_admin_user_table extends Migration
     {
         $this->createTable('admin_user', [
             'id' => $this->primaryKey(),
-            'username' => $this->string()->notNull()->unique(),
-            'password_hash' => $this->string()->notNull(),
-            'email' => $this->string(),
+            'username' => $this->string(200)->notNull()->unique(),
+            'password_hash' => $this->string(256)->notNull(),
+            'email' => $this->string(100),
             'status' => $this->integer(1)->defaultValue(0),
-            'create_time' => $this->date(),
+            'create_time' => $this->dateTime(),
         ]);
     }
 

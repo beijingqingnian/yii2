@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use app\modules\models\WarehouseInfo;
 
 /* @var $this yii\web\View */
 /* @var $model app\modules\models\WarehouseInfo */
@@ -22,7 +23,6 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ]) ?>
     </p>
-
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
@@ -34,9 +34,10 @@ $this->params['breadcrumbs'][] = $this->title;
             'phone',
             'area',
             'price',
+            ['label'=>'图片','format'=>'html','value'=>Html::img(Yii::$app->params['img_path'].$model->url,["width"=>"60"])],
             'create_time',
             'update_time',
-            'status',
+            ['label'=>'状态','value'=>WarehouseInfo::$status_list[$model->status]],
         ],
     ]) ?>
 

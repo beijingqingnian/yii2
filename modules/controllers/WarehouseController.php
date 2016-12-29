@@ -8,6 +8,9 @@ use app\modules\models\WarehouseInfoSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
+use yii\filters\AccessControl;
+//use yii\filters\auth\HttpBasicAuth;
 
 /**
  * WarehouseController implements the CRUD actions for WarehouseInfo model.
@@ -20,6 +23,23 @@ class WarehouseController extends Controller
     public function behaviors()
     {
         return [
+            //认证方法过滤器
+            /*'basicAuth' => [
+                'class' => HttpBasicAuth::className(),
+            ],*/
+            /*'access' => [
+                'class'=> AccessControl::className(),
+                //'only' => ['create','update','index','delete','view'],
+                'rules' =>
+                 [
+                     //允许认证用户访问
+                    [
+                        'actions' => ['view','index','create','update','delete'],
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ]
+                ],
+            ],*/
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
@@ -37,7 +57,9 @@ class WarehouseController extends Controller
     {
         $searchModel = new WarehouseInfoSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-
+        /*if(Yii::$app->user->isGuest){
+            echo 'you';exit();
+        }*/
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
@@ -65,8 +87,27 @@ class WarehouseController extends Controller
     {
         $model = new WarehouseInfo();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if(Yii::$app->request->isPost){
+            $model->load(Yii::$app->request->post());
+            $model->url = UploadedFile::getInstance($model,"url");
+            $dir = Yii::$app->params['img_path']."/warehouse_img/".date('Ymd');
+            if(!is_dir($dir)){
+                mkdir($dir);
+            }
+            if($model->validate()){
+                $fileName = date("YmdHis").rand(10,99).uniqid().$model->url->baseName.".".$model->url->extension;
+                $dir = $dir."/".$fileName;
+                $model->url->saveAs($dir);
+                $model->url = "/warehouse_img/".date('Ymd').'/'.$fileName;
+            }
+            if($model->save()){
+                return $this->redirect(['view', 'id' => $model->id]);
+            }else{
+                return $this->render('create', [
+                    'model' => $model,
+                ]);
+            }
+
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -84,8 +125,34 @@ class WarehouseController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if(Yii::$app->request->isPost){
+            $oldImg = $model->url;
+            $model->load(Yii::$app->request->post());
+            $model->url = $oldImg;
+            $obj = UploadedFile::getInstance($model,'url');
+            if($obj->name){
+                //删除旧图
+                if(!empty($oldImg)){
+                    unlink(Yii::$app->params['img_path'].$oldImg);
+                }
+                $model->url = $obj;
+                $dir = Yii::$app->params['img_path'].'/warehouse_img/'.date('Ymd');
+                if(!is_dir($dir)){
+                    mkdir($dir);
+                }
+                $fileName = date("YmdHis").rand(10,99).uniqid().$model->url->baseName.".".$model->url->extension;
+                $dir = $dir."/".$fileName;
+                $model->url->saveAs($dir);
+                $model->url = "/warehouse_img/".date('Ymd').'/'.$fileName;
+            }
+
+            if($model->save()){
+                return $this->redirect(['view', 'id' => $model->id]);
+            }else{
+                return $this->render('update', [
+                    'model' => $model,
+                ]);
+            }
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -101,8 +168,12 @@ class WarehouseController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+        $model = $this->findModel($id);
 
+        if(!empty($model->url)){
+            unlink(Yii::$app->params['img_path'].$model->url);
+        }
+        $model->delete();
         return $this->redirect(['index']);
     }
 

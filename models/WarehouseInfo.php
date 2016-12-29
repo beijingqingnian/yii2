@@ -15,6 +15,7 @@ use Yii;
  * @property string $phone
  * @property integer $area
  * @property string $price
+ * @property string $url
  * @property string $create_time
  * @property string $update_time
  * @property integer $status
@@ -59,6 +60,7 @@ class WarehouseInfo extends \yii\db\ActiveRecord
             'phone' => 'Phone',
             'area' => 'Area',
             'price' => 'Price',
+            'url' => 'img',
             'create_time' => 'Create Time',
             'update_time' => 'Update Time',
             'status' => 'Status',
