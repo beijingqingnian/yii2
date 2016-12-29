@@ -16,8 +16,11 @@ $config = [
     'components' => [
         'view' => [
             'theme' => [
+                'basePath'=>'@app/themes/basic',//$theme->getUrl('img/logo.gif')
+                'baseUrl' => '@web/themes/basic',//$theme->getPath('img/logo.gif');
                 'pathMap' => [
-                    '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+                    //'@app/modules' => '@app/modules/views'
+                    '@app/views' => ['@app/modules/views','@app/views']//'@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
                 ],
             ],
         ],

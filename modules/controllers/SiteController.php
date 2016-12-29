@@ -1,8 +1,9 @@
 <?php
 
 namespace app\modules\controllers;
-
+use yii;
 use yii\web\Controller;
+use app\modules\models\AdminUser;
 
 /**
  * Default controller for the `admin` module
@@ -15,10 +16,18 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('login');
+        return $this->render('index');
     }
 
     public function actionLogin(){
-        return $this->render('login');
+        $model = new AdminUser();
+
+        $request = Yii::$app->request;
+        //if(){
+
+        //}
+        //print_r($request->post('AdminUser'));
+
+        return $this->render('login',['model'=>$model]);
     }
 }

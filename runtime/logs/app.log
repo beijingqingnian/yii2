@@ -4742,3 +4742,950 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1482300211.337
     'REQUEST_TIME' => 1482300211
 ]
+2016-12-21 14:53:10 [-][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-21 14:53:10 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ZJvrWFKEGB/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/code/yii2/.idea'
+    'TERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.EYKMamx730/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.eJf431IWw5/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482328390.34
+    'REQUEST_TIME' => 1482328390
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]
+2016-12-21 14:54:34 [-][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-21 14:54:34 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ZJvrWFKEGB/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/code/yii2/.idea'
+    'TERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.EYKMamx730/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.eJf431IWw5/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482328474.69
+    'REQUEST_TIME' => 1482328474
+    'argv' => [
+        0 => './yii'
+        1 => 'hello'
+    ]
+    'argc' => 2
+]
+2016-12-21 14:54:42 [-][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-21 14:54:42 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ZJvrWFKEGB/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/code/yii2/.idea'
+    'TERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.EYKMamx730/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.eJf431IWw5/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482328482.52
+    'REQUEST_TIME' => 1482328482
+    'argv' => [
+        0 => './yii'
+        1 => 'hello'
+        2 => 'sf'
+    ]
+    'argc' => 3
+]
+2016-12-21 14:58:58 [-][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-21 14:58:55 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ZJvrWFKEGB/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/code/yii2/.idea'
+    'TERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.EYKMamx730/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.eJf431IWw5/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482328735.05
+    'REQUEST_TIME' => 1482328735
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/create'
+        2 => 'create_admin_user_table'
+    ]
+    'argc' => 3
+]
+2016-12-21 15:37:58 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'yii'' in /code/yii2/vendor/yiisoft/yii2/db/Connection.php:602
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/db/Connection.php(602): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 /code/yii2/vendor/yiisoft/yii2/db/Connection.php(544): yii\db\Connection->createPdoInstance()
+#2 /code/yii2/vendor/yiisoft/yii2/db/Connection.php(863): yii\db\Connection->open()
+#3 /code/yii2/vendor/yiisoft/yii2/db/Connection.php(850): yii\db\Connection->getMasterPdo()
+#4 /code/yii2/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#5 /code/yii2/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare(true)
+#6 /code/yii2/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /code/yii2/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#8 /code/yii2/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /code/yii2/vendor/yiisoft/yii2/db/Schema.php(147): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /code/yii2/vendor/yiisoft/yii2/console/controllers/MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 /code/yii2/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 /code/yii2/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(135): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#14 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#15 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#16 /code/yii2/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#17 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('up', Array)
+#18 /code/yii2/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#19 /code/yii2/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#20 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /code/yii2/yii(20): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000] [1049] Unknown database 'yii'' in /code/yii2/vendor/yiisoft/yii2/db/Connection.php:549
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/db/Connection.php(863): yii\db\Connection->open()
+#1 /code/yii2/vendor/yiisoft/yii2/db/Connection.php(850): yii\db\Connection->getMasterPdo()
+#2 /code/yii2/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#3 /code/yii2/vendor/yiisoft/yii2/db/Command.php(894): yii\db\Command->prepare(true)
+#4 /code/yii2/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /code/yii2/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#6 /code/yii2/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /code/yii2/vendor/yiisoft/yii2/db/Schema.php(147): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /code/yii2/vendor/yiisoft/yii2/console/controllers/MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#9 /code/yii2/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#10 /code/yii2/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(135): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#12 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#14 /code/yii2/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#15 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('up', Array)
+#16 /code/yii2/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#17 /code/yii2/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#18 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /code/yii2/yii(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2016-12-21 15:37:58 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ZJvrWFKEGB/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/code/yii2/.idea'
+    'TERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.EYKMamx730/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.eJf431IWw5/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482331078.7
+    'REQUEST_TIME' => 1482331078
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2016-12-21 15:37:58 [-][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-21 15:37:58 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ZJvrWFKEGB/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/code/yii2/.idea'
+    'TERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.EYKMamx730/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.eJf431IWw5/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482331078.7
+    'REQUEST_TIME' => 1482331078
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2016-12-21 15:39:01 [-][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-21 15:38:51 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.ZJvrWFKEGB/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/code/yii2/.idea'
+    'TERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.EYKMamx730/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:71788CA7-19D7-4BDD-94B7-FB713E7E817D'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.eJf431IWw5/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482331131.06
+    'REQUEST_TIME' => 1482331131
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2016-12-21 15:45:37 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\AdminUser::rememberMe' in /code/yii2/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/db/BaseActiveRecord.php(286): yii\base\Component->__get('rememberMe')
+#1 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(2044): yii\db\BaseActiveRecord->__get('rememberMe')
+#2 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(1443): yii\helpers\BaseHtml::getAttributeValue(Object(app\modules\models\AdminUser), 'rememberMe')
+#3 /code/yii2/vendor/yiisoft/yii2/helpers/BaseHtml.php(1425): yii\helpers\BaseHtml::activeBooleanInput('checkbox', Object(app\modules\models\AdminUser), 'rememberMe', Array)
+#4 /code/yii2/vendor/yiisoft/yii2/widgets/ActiveField.php(567): yii\helpers\BaseHtml::activeCheckbox(Object(app\modules\models\AdminUser), 'rememberMe', Array)
+#5 /code/yii2/vendor/yiisoft/yii2-bootstrap/ActiveField.php(212): yii\widgets\ActiveField->checkbox(Array, false)
+#6 /code/yii2/modules/views/site/login.php(44): yii\bootstrap\ActiveField->checkbox()
+#7 /code/yii2/vendor/yiisoft/yii2/base/View.php(326): require('/code/yii2/modu...')
+#8 /code/yii2/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/code/yii2/modu...', Array)
+#9 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile('/code/yii2/modu...', Array, Object(app\modules\controllers\SiteController))
+#10 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('login', Array, Object(app\modules\controllers\SiteController))
+#11 /code/yii2/modules/controllers/SiteController.php(24): yii\base\Controller->render('login', Array)
+#12 [internal function]: app\modules\controllers\SiteController->actionLogin()
+#13 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#16 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/site/logi...', Array)
+#17 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /code/yii2/index.php(12): yii\base\Application->run()
+#19 {main}
+2016-12-21 15:45:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '01f40114bbb1ca98edfd45493cd30e7c6832b1c3051de76ae38a28b763299e57a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Dvm_ExhsjJaWCiDeHZ2nHtq3FNiZouQD\";}'
+    'PHPSESSID' => 'c9d9cdc6c970f2aa69990c5166d293ac'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=01f40114bbb1ca98edfd45493cd30e7c6832b1c3051de76ae38a28b763299e57a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Dvm_ExhsjJaWCiDeHZ2nHtq3FNiZouQD%22%3B%7D; PHPSESSID=c9d9cdc6c970f2aa69990c5166d293ac'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '53568'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482331536.69
+    'REQUEST_TIME' => 1482331536
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-27 14:22:55 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/login".' in /code/yii2/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/login', Array)
+#1 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /code/yii2/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /code/yii2/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /code/yii2/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-12-27 14:22:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/login'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '52346'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/login'
+    'REQUEST_URI' => '/index.php?r=admin/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482844975.56
+    'REQUEST_TIME' => 1482844975
+    'argv' => [
+        0 => 'r=admin/login'
+    ]
+    'argc' => 1
+]
+2016-12-27 14:28:24 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\Yii' not found' in /code/yii2/modules/controllers/SiteController.php:25
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#1 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#3 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#5 /code/yii2/index.php(12): yii\base\Application->run()
+#6 {main}
+2016-12-27 14:28:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'OHhXNlAxbzlAAQBHNWtaamEONGA8ADlefRINRRlcXGpiKgRiGngpfQ=='
+    'AdminUser' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '0'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '185'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '52405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482845304.1
+    'REQUEST_TIME' => 1482845304
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-27 14:32:05 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\Yii' not found' in /code/yii2/modules/controllers/SiteController.php:26
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#1 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#3 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#4 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#5 /code/yii2/index.php(12): yii\base\Application->run()
+#6 {main}
+2016-12-27 14:32:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/site/login'
+]
+
+$_POST = [
+    '_csrf' => 'OHhXNlAxbzlAAQBHNWtaamEONGA8ADlefRINRRlcXGpiKgRiGngpfQ=='
+    'AdminUser' => [
+        'username' => 'demo'
+        'password_hash' => 'demo'
+        'rememberMe' => '0'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/index.php?r=admin/site/login'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '185'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '52440'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/site/login'
+    'REQUEST_URI' => '/index.php?r=admin/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482845525.3
+    'REQUEST_TIME' => 1482845525
+    'argv' => [
+        0 => 'r=admin/site/login'
+    ]
+    'argc' => 1
+]
+2016-12-29 06:03:17 [-][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-29 06:03:17 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.DasC3Z5WRH/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/Users/wangxl'
+    'TERM_SESSION_ID' => 'w0t0p1:CBA43277-7356-4E8C-9DB1-EDDA780AC5A6'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.l6rkY5Tnjv/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:CBA43277-7356-4E8C-9DB1-EDDA780AC5A6'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.CuMVEvInVw/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482987797.43
+    'REQUEST_TIME' => 1482987797
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]
+2016-12-29 06:04:32 [-][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-29 06:04:30 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.DasC3Z5WRH/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/Users/wangxl'
+    'TERM_SESSION_ID' => 'w0t0p1:CBA43277-7356-4E8C-9DB1-EDDA780AC5A6'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.l6rkY5Tnjv/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:CBA43277-7356-4E8C-9DB1-EDDA780AC5A6'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.CuMVEvInVw/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482987870.72
+    'REQUEST_TIME' => 1482987870
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/create'
+        2 => 'create_warehouse_info_table'
+    ]
+    'argc' => 3
+]
+2016-12-29 06:19:26 [-][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/Applications/MAMP/bin/php/php5.6.2/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-12-29 06:19:24 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/9_/19srmlxj7nq1v_6tm3xhqthh0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.DasC3Z5WRH/Render'
+    'TERM_PROGRAM_VERSION' => '3.0.2'
+    'OLDPWD' => '/Users/wangxl'
+    'TERM_SESSION_ID' => 'w0t0p1:CBA43277-7356-4E8C-9DB1-EDDA780AC5A6'
+    'USER' => 'wangxl'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.l6rkY5Tnjv/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/Cellar/mongodb/3.0.4/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php5.6.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin'
+    'PWD' => '/code/yii2'
+    'LANG' => 'zh_CN.UTF-8'
+    'ITERM_PROFILE' => 'Default'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/wangxl'
+    'COLORFGBG' => '7;0'
+    'ITERM_SESSION_ID' => 'w0t0p1:CBA43277-7356-4E8C-9DB1-EDDA780AC5A6'
+    'LOGNAME' => 'wangxl'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.CuMVEvInVw/org.macosforge.xquartz:0'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1482988764.71
+    'REQUEST_TIME' => 1482988764
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2016-12-29 06:20:15 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/gii".' in /code/yii2/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/gii', Array)
+#1 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /code/yii2/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /code/yii2/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /code/yii2/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-12-29 06:20:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/gii'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '53263'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/gii'
+    'REQUEST_URI' => '/index.php?r=admin/gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482988815.32
+    'REQUEST_TIME' => 1482988815
+    'argv' => [
+        0 => 'r=admin/gii'
+    ]
+    'argc' => 1
+]
+2016-12-29 06:33:40 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: dataProvider' in /code/yii2/modules/views/warehouse/index.php:22
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile()
+#1 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile()
+#2 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render()
+#3 /code/yii2/modules/controllers/WarehouseController.php(9): yii\base\Controller->render()
+#4 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): app\modules\controllers\WarehouseController->actionIndex()
+#5 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/code/yii2/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#6 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction()
+#8 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction()
+#9 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#10 /code/yii2/index.php(12): yii\base\Application->run()
+#11 {main}
+2016-12-29 06:33:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/warehouse'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '53390'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/warehouse'
+    'REQUEST_URI' => '/index.php?r=admin/warehouse'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482989620.41
+    'REQUEST_TIME' => 1482989620
+    'argv' => [
+        0 => 'r=admin/warehouse'
+    ]
+    'argc' => 1
+]
+2016-12-29 07:20:31 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /code/yii2/views/index.php' in /code/yii2/vendor/yiisoft/yii2/base/View.php:227
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile('/code/yii2/view...', Array, Object(app\controllers\SiteController))
+#1 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('/index', Array, Object(app\controllers\SiteController))
+#2 /code/yii2/controllers/SiteController.php(68): yii\base\Controller->render('/index', Array)
+#3 [internal function]: app\controllers\SiteController->actionIndex()
+#4 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#7 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('site/index', Array)
+#8 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /code/yii2/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-12-29 07:20:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '53933'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482992431.18
+    'REQUEST_TIME' => 1482992431
+    'argv' => [
+        0 => 'r=site%2Findex'
+    ]
+    'argc' => 1
+]
+2016-12-29 07:21:11 [127.0.0.1][-][-][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /code/yii2/views/site/site/index.php' in /code/yii2/vendor/yiisoft/yii2/base/View.php:227
+Stack trace:
+#0 /code/yii2/vendor/yiisoft/yii2/base/View.php(150): yii\base\View->renderFile('/code/yii2/view...', Array, Object(app\controllers\SiteController))
+#1 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('site/index', Array, Object(app\controllers\SiteController))
+#2 /code/yii2/controllers/SiteController.php(68): yii\base\Controller->render('site/index', Array)
+#3 [internal function]: app\controllers\SiteController->actionIndex()
+#4 /code/yii2/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /code/yii2/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /code/yii2/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#7 /code/yii2/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('site/index', Array)
+#8 /code/yii2/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /code/yii2/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-12-29 07:21:11 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD\";}'
+    'PHPSESSID' => '561b294ce3e4888db7974748194b3c4b'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.yii.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.yii.com/'
+    'HTTP_COOKIE' => '_csrf=b599e79fcfde270d77c28c604e7ffb70f079365fcdfbbaf477a7aae891d5fe32a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xyWqeZ5SYvcVl1VgEjZsIm3SZRSTJIFD%22%3B%7D; PHPSESSID=561b294ce3e4888db7974748194b3c4b'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.5.18 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_perl/2.0.8 Perl/v5.20.0'
+    'SERVER_NAME' => 'www.yii.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/code/yii2'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/code/yii2/index.php'
+    'REMOTE_PORT' => '53939'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482992471.02
+    'REQUEST_TIME' => 1482992471
+    'argv' => [
+        0 => 'r=site%2Findex'
+    ]
+    'argc' => 1
+]

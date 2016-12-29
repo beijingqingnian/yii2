@@ -12,25 +12,29 @@ $this->title = '首页 | 优越仓-最优质的互联网仓储服务平台';
         <div id="main" role="main">
             <ul id="tiles">
                 <!-- These are our grid blocks -->
-                <li onClick="location.href='<?php echo Url::toRoute("site/info")?>';">
-                    <img src="web/images/img1.jpg" width="200" height="200">
-                    <div class="post-info">
-                        <div class="post-basic-info">
-                            <h3><a href="#">仓储咨询</a></h3>
-                            <span><a href="#"><label> </label>自助仓</a></span>
-                            <p>北京一号院，仓储服务中心，阿斯顿发科技老师的发了啥地方就考虑是否方式打开了房间的律师费</p>
-                        </div>
-                        <div class="post-info-rate-share">
-                            <div class="rateit">
-                                <span> </span>
+                <?php foreach($warehouse as $k => $info):?>
+                    <?php //print_r($info);?>
+                    <li onClick="location.href='<?php echo Url::toRoute("site/info")?>';">
+                        <img src="web/images/img1.jpg" width="200" height="200">
+                        <div class="post-info">
+                            <div class="post-basic-info">
+                                <h3><a href="#"><?= $info['name']?></a></h3>
+                                <span><a href="#"><label> </label><?= $info['address']?></a></span>
+                                <p><?= $info['desc']?></p>
                             </div>
-                            <div class="post-share">
-                                <span> </span>
+                            <div class="post-info-rate-share">
+                                <div class="rateit">
+                                    <span> </span>
+                                </div>
+                                <div class="post-share">
+                                    <span> </span>
+                                </div>
+                                <div class="clear"> </div>
                             </div>
-                            <div class="clear"> </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
+                <?php endforeach;?>
+
                 <li onClick="location.href='single-page.html';">
                     <img src="web/images/img2.jpg" width="200" height="299">
                     <div class="post-info">

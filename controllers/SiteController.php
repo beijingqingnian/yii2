@@ -7,7 +7,8 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
-use app\models\ContactForm;
+//use app\models\ContactForm;
+use app\models\WarehouseInfo;
 
 class SiteController extends Controller
 {
@@ -62,7 +63,9 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $warehouse = WarehouseInfo::getWarehouseInfo();
+        //var_dump($warehouse);
+        return $this->render('@app/views/site/index',['warehouse'=>$warehouse]);
     }
 
     /**
